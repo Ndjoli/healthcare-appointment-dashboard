@@ -1,4 +1,3 @@
-
 # 🩺 Healthcare Appointment Dashboard – Power BI Project
 
 This project features a fully interactive and insightful Power BI dashboard built to analyze **patient appointment data** from the **Ministry of Health**. The dataset includes records of scheduled appointments, provider roles, patient IDs, and waiting times.
@@ -17,6 +16,36 @@ The primary goals of this project are to:
 ---
 
 ## 📄 Dataset Overview
+
+The **Healthcare Appointment Dataset** contains detailed records from public healthcare facilities. Key variables include:
+
+- Patient and provider details  
+- Appointment dates and delays  
+- Distribution by weekday and role  
+
+This dataset helps evaluate:
+- Hospital performance  
+- Patient access trends  
+- Provider resource utilization
+
+---
+
+## 🗂️ Project Structure
+
+```
+📁 Healthcare_Appointment_Dashboard/
+├── 📊 Dashboard.pbix               # Power BI dashboard file
+├── 📄 README_Healthcare_Dashboard.md # Project overview and documentation
+├── 🖼️ Screenshot.png               # Dashboard screenshot
+└── 📂 Data/
+    └── appointments.csv           # Cleaned and transformed appointment data
+```
+
+---
+
+## 🖼️ Project Preview
+
+### 📸 Full Dashboard View
 
 ![Healthcare Dashboard](Screenshot%202025-06-01%20133128.png)
 
@@ -54,13 +83,6 @@ The primary goals of this project are to:
 
 ---
 
-## 🧾 Dataset Source
-
-- **Source**: [Healthcare Appointment Dataset – Kaggle](#)  
-- **Origin**: Public hospitals under the Ministry of Health
-
----
-
 ## 📬 Contact
 
 **Arman Ndjoli**  
@@ -71,3 +93,4 @@ The primary goals of this project are to:
 ---
 
 > ✅ *This project is part of my data analytics portfolio, highlighting my skills in data cleaning, transformation, DAX measures, and Power BI dashboard creation.*
+
