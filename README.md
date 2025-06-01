@@ -1,85 +1,96 @@
-# 🩺 Healthcare Appointment Analysis Dashboard – Power BI Project
 
-This project is a complete end-to-end data analysis and dashboard development task using **Microsoft Power BI**. It explores a healthcare dataset focused on patient appointment scheduling, helping uncover insights about waiting times, provider roles, and scheduling trends.
+# 🩺 Healthcare Appointment Dashboard – Power BI Project
+
+This project features an interactive and insightful **Power BI dashboard** built to analyze patient appointment data from the Ministry of Health. The dataset includes appointment scheduling records along with patient-level details such as names, IDs, appointment roles, and waiting times.
 
 ---
 
 ## 📌 Project Objective
 
-To build an interactive and visually appealing Power BI dashboard that:
-- Analyzes patient appointment trends
-- Highlights provider workload and efficiency
-- Tracks waiting time distribution
-- Enables dynamic filtering by roles, months, and day of the week
+The goal of this project is to:
+- Understand patterns in appointment scheduling
+- Analyze appointment distribution by provider roles
+- Track waiting times and patient volume
+- Provide a clean, visual representation of healthcare operations
 
 ---
 
-## 🛠 Tools & Technologies
+## 📄 Dataset Overview
+
+The **Healthcare Appointment Dataset** provides detailed information on patient appointments collected from **public healthcare facilities** managed by the **Ministry of Health**. It includes variables like patient names, IDs, provider roles, scheduled dates, and waiting times.
+
+### Key Features:
+- Patient and provider information
+- Appointment scheduling dates and delays
+- Distribution by day of the week and provider role
+
+This dataset enables the evaluation of hospital performance, patient access trends, and provider utilization.
+
+---
+
+## 🖼️ Project Screenshot
+
+> 📸 *Project Preview*
+
+![Healthcare Dashboard](./healthcare_dashboard_screenshot.png)
+
+---
+
+## 📸 Full Dashboard View
+
+> 📊 *Detailed Overview of All Visuals*
+
+![Healthcare Dashboard](./healthcare_dashboard_full_screenshot.png)
+
+---
+
+## 📊 Dashboard Features
+
+- **KPIs**: Minimum, Maximum, and Average Waiting Time (in Days)
+- **Pie Chart**: % of Appointments by Provider Role
+- **Bar Chart**: Patient Volume by Appointment Day
+- **Slicers**: Filter by role for focused analysis
+- **Custom Background**: Blue medical theme with stethoscope
+
+---
+
+## 📈 Recommendations Summary
+
+1. Spread appointments more evenly across the week to reduce Monday–Tuesday congestion.  
+2. Shorten long waiting times by increasing provider availability during peak periods.  
+3. Introduce a triage system to prioritize urgent cases and reduce delays.  
+4. Redistribute tasks from Medical Doctors to Nurses and Psychologists where appropriate.  
+5. Train non-physician providers to handle routine consultations to ease workload.  
+6. Investigate the cause of declining appointment volumes in certain months.  
+7. Boost appointment availability in underutilized months to improve access.  
+8. Consider adding reminder systems to reduce patient no-shows (if applicable).  
+9. Monitor workload trends across provider roles for better resource planning.  
+10. Use data-driven scheduling to align demand with staffing capacity.  
+
+---
+
+## 🛠️ Tools Used
 
 - **Power BI Desktop**
-- Power Query for data cleaning
-- DAX for calculated columns and measures
-- Custom background design (medical-themed)
+  - Power Query for transformation
+  - DAX for calculated fields
+  - Custom visuals and theming
 
 ---
 
-## 🧹 Data Cleaning Steps
+## 🧾 Dataset Source
 
-- Converted date fields to proper `datetime` format
-- Calculated `Waiting Time (Days)`
-- Created categorical column `Waiting Group`
-- Extracted `Appointment Day` and `Appointment Month`
-- Renamed `MD` → `Medical Doctor` for clarity
-
----
-
-## 📈 Dashboard Features
-
-- 🎯 **KPI Cards**: Total Appointments, Avg Waiting Time, First Month, Fastest Waiting Group
-- 📊 **Charts**:
-  - Appointments by Waiting Time Group
-  - Avg Waiting Time by Provider Role
-  - Appointments by Day of Week
-  - Provider Role Breakdown
-- 🧭 **Filters**:
-  - Slicers for Provider Role, Waiting Group, Month
-- 🎨 **Design**: Branded with a custom medical background and consistent color theme
-
----
-
-## 🖼 Screenshot Preview
-
-![Dashboard Screenshot](Screenshot%202025-05-28%20210051.png)
-
----
-
-## 📁 Project Structure
-
-```
-📂 healthcare-appointment-powerbi/
-├── Appointment_Scheduling_With_WaitingGroup.csv
-├── Healthcare_Appointment_Dashboard.pbix
-├── assets/
-│   └── background.png
-│   └── Screenshot 2025-05-28 210051.png
-└── README.md
-```
-
----
-
-## 👨‍⚕️ Insights
-
-- Most appointments are handled by **Medical Doctors**
-- The majority of patients wait **3–10 days**
-- **Wednesdays and Thursdays** are peak appointment days
-- Certain roles consistently deliver shorter waiting times
+- [Healthcare Appointment Power BI Dataset – Kaggle](https://www.kaggle.com/datasets/swsw1717/healthcare-appointment-power-bi-project)
+- Collected from **public hospitals** under the **Ministry of Health**
 
 ---
 
 ## 📬 Contact
 
 **Arman Ndjoli**  
-📧 [armanndjoli97@gmail.com](mailto:armanndjoli97@gmail.com)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/arman-ndjoli97)
+📧 armanndjoli97@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/arman-ndjoli97)  
+🔗 [GitHub Portfolio](https://github.com/Ndjoli)
 
 ---
+> *This project is part of my data analytics portfolio, showcasing my ability to clean, transform, visualize, and present data in Power BI.*
